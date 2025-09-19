@@ -50,6 +50,26 @@ body{
     border-radius: 7px;
 }
 
+@media (max-width: 1399.98px) { 
+    .texto{
+        font-size: 1.4em;   
+    }
+
+    .titulo-branco{
+        font-size: 2.9em;       
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .texto{
+        font-size: 1.4em;   
+    }
+
+    .titulo-branco{
+        font-size: 2.9em;       
+    }
+}
+
 /* sessao 1 */
 .fundo-principal{
     background-image: url('images/banner_principal.png');
@@ -82,14 +102,75 @@ body{
 }
 
 .padding-percent{
-    padding-top: 65%;
+    padding-top: 72%;
+}
+
+@media (max-width: 1399.98px) {
+    .titulo-principal {
+        font-size: 4em;        
+    }
+
+    .padding-percent {
+        padding-top: 50%;
+        padding-left: 24px !important;
+    }
+
+    .btn-orcamento {
+        padding: 10px 60px !important;
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    .titulo-principal {
+        font-size: 3.9em;        
+    }
+
+    .padding-percent {
+        padding-top: 58%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .titulo-principal {
+        font-size: 3.5em;        
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .titulo-principal {
+        font-size: 2.8em;        
+    }
+}
+
+@media (max-width: 575.98px) {
+    .titulo-principal {
+        font-size: 2.2em;        
+    }
 }
 
 /* sessão 2 */
+@media (max-width: 1399.98px) {
 
+}
+
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
+
+}
+
+@media (max-width: 767.98px) { 
+
+}
+
+@media (max-width: 575.98px) {
+
+}
 
 /* sessão 3 */
-
 .accordion-button{
     background-color: #a01e1a !important;
     color:#ffffff !important;
@@ -157,6 +238,16 @@ body{
     object-fit: cover;  
 }
 
+@media (max-width: 1399.98px) {
+    .accordion-button{
+        font-size: 1.5em !important;
+    }
+
+    .accordion-body{
+        font-size: 1.2em;
+    }
+}
+
 /* sessão 4 */
 .titulo-excelencia{
     font-size: 5.8em;
@@ -222,6 +313,12 @@ body{
     }
 }
 
+@media (max-width: 1399.98px) {
+    .titulo-excelencia{
+        font-size: 4.8em;
+    }
+}
+
 /* sessão 5 */
 .fundo-contact{
     background-color: #737373;
@@ -246,6 +343,15 @@ body{
     background-color: transparent !important;
     border: 2px solid #ffffff !important;
     border-radius: 7px !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 1399.98px) {
+    
 }
 
 
