@@ -111,7 +111,7 @@ body{
     }
 
     .padding-percent {
-        padding-top: 50%;
+        padding-top: 50% !important;
         padding-left: 24px !important;
     }
 
@@ -137,8 +137,8 @@ body{
     }
 
     .padding-percent {
-        padding-top: 26%;
-        padding-bottom: 20%;
+        padding-top: 26% !important;
+        padding-bottom: 20% !important;
     }
 }
 
@@ -148,8 +148,8 @@ body{
     }
 
     .padding-percent {
-        padding-top: 26%;
-        padding-bottom: 20%;
+        padding-top: 26% !important;
+        padding-bottom: 20% !important;
     }
 }
 
@@ -159,8 +159,8 @@ body{
     }
 
     .padding-percent {
-        padding-top: 26%;
-        padding-bottom: 20%;
+        padding-top: 26% !important;
+        padding-bottom: 20% !important;
     }
 }
 
