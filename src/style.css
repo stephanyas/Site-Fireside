@@ -260,11 +260,12 @@ body{
 
 /* sessão 4 */
 .titulo-excelencia{
-    font-size: 5.8em;
+    font-size: 5em;
     line-height: 1.4;
     color: #000000;
     font-family: 'TT Backwards', sans-serif !important;
     font-weight: bolder;
+    text-transform: uppercase !important;
 }
 
 .titulo-excelencia span{
